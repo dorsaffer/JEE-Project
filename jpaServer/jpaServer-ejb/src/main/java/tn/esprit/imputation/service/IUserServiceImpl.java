@@ -18,7 +18,7 @@ public class IUserServiceImpl implements IUserServiceRemote{
 	public int addEtudiant(Etudiant e) {
 		System.out.println("add etudiant");
 		em.persist(e);
-		System.out.println("out of add etudiant");
+	
 		return e.getId();
 		
 	}
